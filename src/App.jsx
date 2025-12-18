@@ -2,13 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Dashboard from './components/Dashboard'
 
 function App(){
+  let name="Jenisha"
+  let occ="Student"
   return(
-    <>
-      <h1>Welcome</h1>
-      <h2>Home</h2>
-    </>
+    <Card fullName={name} occ={occ}/>
+    
   )
 }
 
